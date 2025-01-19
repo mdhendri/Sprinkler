@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Sparkgap")(type "KiCad")(uri "${ULTRALIB}/SparkGap/Sparkgap.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SparkGap")(type "KiCad")(uri "C:/Users/mdhen/OneDrive/Documents/Kicad/Sprinkler/Libs/UltraLibrarian/SparkGap.pretty")(options "")(descr ""))
+  (lib (name "CLF5030NIT-150M-D")(type "KiCad")(uri "${ULTRALIB}/CLF5030NIT-150M-D.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${ULTRALIB}/RB060MM/footprints.pretty")(options "")(descr ""))
+)

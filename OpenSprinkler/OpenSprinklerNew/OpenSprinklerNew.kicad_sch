@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3e2dfdbc-3beb-4de5-b8ae-131d94cab275)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.18 158.75) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 60071c0d-a7c8-4dbc-868d-63fff9dd30eb)
+    (property "Sheetname" "Power" (at 43.18 158.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 43.18 163.1446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "OpenSprinklerNew"
+        (path "/3e2dfdbc-3beb-4de5-b8ae-131d94cab275" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -579,299 +579,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x16"
 			(pin_names
 				(offset 1.016) hide)
@@ -6241,16 +5948,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2690caa5-bced-44b9-bd91-f89744c99497")
-	)
-	(wire
-		(pts
 			(xy 130.81 80.01) (xy 133.35 80.01)
 		)
 		(stroke
@@ -6308,16 +6005,6 @@
 			(type default)
 		)
 		(uuid "29cb9996-54a2-4738-b6d4-039c2868d1dc")
-	)
-	(wire
-		(pts
-			(xy 185.42 80.01) (xy 186.69 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a2c2417-97e3-46e7-8ac9-6508808ad29a")
 	)
 	(wire
 		(pts
@@ -6878,16 +6565,6 @@
 			(type default)
 		)
 		(uuid "49bf1f6d-807f-493d-8803-c17ec18b0395")
-	)
-	(wire
-		(pts
-			(xy 184.15 82.55) (xy 186.69 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4dbe5c-b15d-41ed-867c-e9f6ac840247")
 	)
 	(wire
 		(pts
@@ -10068,28 +9745,6 @@
 		(uuid "206fec68-04a4-42e9-93c8-14cf6f93411f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.6453 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COMMON"
-		(shape input)
-		(at 184.15 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2403daef-f38e-41e6-94de-0057e3beef29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0799 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15273,72 +14928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67adf767-794c-4371-b9ae-1c4abc17e5db")
-		(property "Reference" "#PWR031"
-			(at 185.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9448eb0c-3083-4ce9-93a5-94f66fcdda72")
-		)
-		(instances
-			(project "OpenSprinkler"
-				(path "/1e7a19e7-c172-48cb-8290-979862293d8a/c3033e14-a954-4331-8f1d-87f6033f6a65"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TVSSMB_1")
 		(lib_id "o-eagle-import:TVSSMB")
 		(at 158.75 125.73 0)
@@ -17234,8 +16823,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 191.77 77.47 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 191.77 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17243,7 +16832,7 @@
 		(dnp no)
 		(uuid "90328e84-00d0-4df2-9881-1655c06db4be")
 		(property "Reference" "J3"
-			(at 194.31 78.105 0)
+			(at 194.31 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17252,7 +16841,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 194.31 80.645 0)
+			(at 194.31 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17260,8 +16849,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-503_1x03_P7.50mm_45Degree"
-			(at 191.77 77.47 0)
+		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-502_1x02_P7.50mm_45Degree"
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17270,7 +16859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 77.47 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17278,8 +16867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 77.47 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17292,12 +16881,6 @@
 		)
 		(pin "2"
 			(uuid "d3d2f5ea-5477-477f-aa56-540d9d414449")
-		)
-		(pin "3"
-			(uuid "c3bcba2f-d7eb-49ab-9078-c41c763f2109")
-		)
-		(pin "4"
-			(uuid "3e9941c7-f78c-4de7-b00c-62bd0f6fa53d")
 		)
 		(instances
 			(project "OpenSprinkler"

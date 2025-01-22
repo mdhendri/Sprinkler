@@ -2627,7 +2627,6 @@
 	)
 	(label "COM"
 		(at 148.59 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)

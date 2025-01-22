@@ -5297,7 +5297,6 @@
 	)
 	(label "GPIO0"
 		(at 181.61 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5308,7 +5307,6 @@
 	)
 	(label "ETX"
 		(at 181.61 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5319,7 +5317,6 @@
 	)
 	(label "VIN"
 		(at 181.61 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
